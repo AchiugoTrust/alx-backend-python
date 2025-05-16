@@ -23,4 +23,4 @@ def stream_users():
         if connection.is_connected():
             cursor.close()
             connection.close()
-            print("Database connection closed.")
+            print("Database connection closed.") 
